@@ -1,0 +1,836 @@
+/* Fonts Start */
+@font-face{
+    font-family: OpenSans;
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face{
+    font-family: OpenSansBold;
+    src: url('../fonts/OpenSans-Bold.ttf');
+}
+
+@font-face{
+    font-family: OpenSansExtraBold;
+    src: url('../fonts/OpenSans-ExtraBold.ttf');
+}
+/* Fonts End */
+
+
+/* ***** Keyframes Start ***** */
+@keyframes icondiv{
+    from {
+        margin-top: 40px;
+        filter: opacity(0%);
+    }
+
+    to {
+        margin-top: 0;
+        filter: opacity(100%);
+    }
+}
+
+@keyframes headtext{
+    from {
+        margin-top: -20px;
+        filter: opacity(0%);
+    }
+
+    to {
+        margin-top: 0;
+        filter: opacity(100%);
+    }
+}
+
+@keyframes paragraphtext{
+    from {
+        filter: opacity(0%);
+    }
+
+    to {
+        filter: opacity(100%);
+    }
+}
+
+@keyframes readmorebutton{
+    from {
+        margin-left: 20px;
+        filter: opacity(0%);
+    }
+
+    to {
+        margin-left: 0;
+        filter: opacity(100%);
+    }
+}
+/* ***** Keyframes End ***** */
+
+
+/* ***** Navigation Start ***** */
+#navigationback{
+    background-color: #333;
+    padding: 20px 0;
+    position: fixed;
+    z-index: 999;
+    top:0;
+    width: 100%;
+}
+
+/* Site Title Column Start */
+#sitetitle a{
+    font-family: OpenSansBold;
+    font-size: 39px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#sitetitle a:hover{
+    text-decoration: none;
+}
+/* Site Title Column End */
+
+
+/* Navigation Column Start */
+#navtop{
+    background-color: transparent;
+    border: none;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+#navigation ul li a{
+    font-family: OpensansBold;
+    font-size: 13px;
+    color: #ddd;
+    padding: 0 0 20px 20px;
+    line-height: 30px;
+    transition: .5s ease-in;
+}
+
+#navigation ul li a:hover{
+    color:white;
+}
+
+#navigation ul li a.active{
+    color: #4eb478;
+}
+
+#navigation ul li a.active:hover{
+    color: #555;
+}
+
+/* Dropdown Menu Start */
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+    background-color: #444;
+    font-size: 10px;
+}
+
+.dropdown-menu li a{
+    font-family: OpenSans !important;
+    border: none;
+    padding: 5px 0 5px 20px !important;
+}
+
+.dropdown-menu li a:hover{
+    background-color: #4eb478;
+}
+/* Dropdown Menu End */
+
+/* Navigation Column End */
+
+
+/* ***** Navigation End ***** */
+
+
+/* ***** Bootstrap Business Theme Container Start ***** */
+#bootstrapbusinessback{
+    background-color: #f5f5f5;
+    padding: 30px 0;
+    margin-top: 105px;
+}
+
+/* Bootstrap Business Texts Column Start */
+#bootstraptextscol h2{
+    font-family: OpenSansBold;
+    font-size: 40px;
+    color: #333;
+}
+
+#bootstraptextscol h2 span{
+    background-color: #09828c;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 4px;
+}
+
+#bootstraptextscol p{
+    font-family: OpenSans;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 1.6em;
+}
+
+#bootstraptextscol ul{
+    list-style-image: url('../images/bullet.png');
+}
+
+#bootstraptextscol ul li{
+    padding-left: 5px;
+    margin-bottom: 12px;
+    font-family: OpenSans;
+    font-weight: bold;
+    font-size: 18px;
+    color: #666;
+}
+/* Bootstrap Business Texts Column End */
+
+
+/* Bootstrap Carousel Column Start */
+#bootstrapcarousel{
+    padding-top: 20px;
+}
+
+#bootstrapcarousel ol{
+    display: none;
+}
+
+#myCarousel .carousel-inner{
+    border-radius: 5px !important;
+}
+
+#myCarousel a.left.carousel-control{
+    display: none;
+}
+
+#myCarousel a.right.carousel-control{
+    display: none;
+}
+/* Bootstrap Carousel Column End */
+
+/* ***** Bootstrap Business Theme Container End ***** */
+
+
+/* ***** Three Article Container Start ***** */
+#threearticlecontainer{
+    padding: 60px 0;
+}
+
+/* Icon Div Start */
+#threearticlecontainer .roundedback{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #333;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#threearticlecontainer .roundedback i{
+    color: white;
+    font-size: 70px;
+}
+/* Icon Div End */
+
+/* Texts Div Start */
+#threearticlecontainer .articletext{
+    float: left;
+    padding-left: 20px;
+    width: 60%;
+}
+#threearticlecontainer .articletext h3{
+    font-family: OpenSansBold;
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+#threearticlecontainer .articletext p{
+    font-family: OpenSans;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+#threearticlecontainer .articletext a{
+    display: block;
+    width: 50%;
+    background-color: #4eb478;
+    border-radius: 20px;
+    padding: 4px 12px;
+    color: white;
+    font-family: OpenSans;
+    font-size: 13px;
+}
+
+#threearticlecontainer .articletext a:hover{
+    background-color: #398b5b;
+}
+
+#threearticlecontainer .articletext a i{
+    padding-right: 2px;
+}
+
+/* Texts Div End */
+
+
+/* *** Animation Effect Start *** */
+#firstarticle:hover .roundedback{
+    animation-name: icondiv;
+    animation-duration: 2s;
+    animation-delay: .3s;
+}
+
+#firstarticle:hover .articletext h3{
+    animation-name: headtext;
+    animation-duration: 2s;
+    animation-delay: .3s;
+}
+
+#firstarticle:hover .articletext p{
+    animation-name: paragraphtext;
+    animation-duration: 2s;
+    animation-delay: .3s;
+}
+
+#firstarticle:hover .articletext a{
+    animation-name: readmorebutton;
+    animation-duration: 2s;
+    animation-delay: .3s;
+}
+
+#secondarticle:hover .roundedback{
+    animation-name: icondiv;
+    animation-duration: 2s;
+    animation-delay: .3s;
+}
+
+#secondarticle:hover .articletext h3{
+    animation-name: headtext;
+    animation-duration: 2s;
+    animation-delay: .3s;
+}
+
+#secondarticle:hover .articletext p{
+    animation-name: paragraphtext;
+    animation-duration: 2s;
+    animation-delay: .3s;
+}
+
+#secondarticle:hover .articletext a{
+    animation-name: readmorebutton;
+    animation-duration: 2s;
+    animation-delay: .3s;
+}
+
+#thirdarticle:hover .roundedback{
+    animation-name: icondiv;
+    animation-duration: 2s;
+    animation-delay: .3s;
+}
+
+#thirdarticle:hover .articletext h3{
+    animation-name: headtext;
+    animation-duration: 2s;
+    animation-delay: .3s;
+}
+
+#thirdarticle:hover .articletext p{
+    animation-name: paragraphtext;
+    animation-duration: 2s;
+    animation-delay: .3s;
+}
+
+#thirdarticle:hover .articletext a{
+    animation-name: readmorebutton;
+    animation-duration: 2s;
+    animation-delay: .3s;
+}
+/* *** Animation Effect End *** */
+
+/* ***** Three Article Container End ***** */
+
+
+/* ***** Special Offer Container Start ***** */
+#specialoffercontainer{
+    background-color: #eee;
+    padding: 30px 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* Text Column Start */
+#specialoffertitle h2{
+    font-family: OpenSansBold;
+    font-size: 36px;
+    color: #333;
+    letter-spacing: -1.5px;
+}
+/* Text Column End */
+
+/* Call Action Button Start */
+#callaction a{
+    background-color: #4eb478;
+    border-radius: 20px;
+    font-family: OpenSans;
+    color:white;
+    font-size: 17.5px;
+    float: right;
+    margin-top: 20px;
+    padding: 8px 17px;
+    transition: .5s ease-in;
+}
+
+#callaction a:hover{
+    background-color: #398b5b;
+}
+
+#callaction a i{
+    padding-right: 5px;
+}
+/* Call Action Button End */
+
+/* ***** Special Offer Container End ***** */
+
+
+/* ***** Tabs and Accordion Container Start ***** */
+
+/* What People say about us Column Start */
+#aboutus h3{
+    font-family: OpenSans;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+/* Tab Content Start */
+#tabcontainer{
+    padding: 0;
+}
+
+#tabcontainer p{
+    padding: 20px 20px 25px;
+    background-color: #f5f5f5;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 23px;
+    color: #777;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#tabcontainer p i{
+    font-size: 41px;
+    color: #e7e7e7;
+    position: absolute;
+    right: 20px;
+    bottom: -15px;
+}
+
+#tabcontainer span:first-of-type{
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: bold;
+    color: #444;
+    display: block;
+}
+
+#tabcontainer span:last-of-type{
+    font-family: OpenSans;
+    font-size: 13px;
+    color: #aaa;
+    display: block;
+}
+/* Tab Content End */
+
+/* Nav Tab List Start */
+#tabcontainer ul{
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+#tabcontainer ul li{
+    margin-right: 8px;
+}
+
+#tabcontainer ul li a{
+    background-color: #7d7d7d;
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    padding: 0;
+}
+
+#tabcontainer ul li a:hover{
+    border: 0;
+}
+
+#tabcontainer ul li.active a{
+    background-color: #191919;
+}
+
+#tabcontainer ul li.active a:hover{
+    border: 0;
+}
+/* Nav Tab List End */
+
+/* What People say about us Column End */
+
+
+/* Our Services Column Start */
+#ourservices h3{
+    font-family: OpenSans;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+/* Accordion Style Start */
+#accordion .panel-heading{
+    background-color: #ededed;
+    transition: .5 ease-in;
+    padding: 15px;
+}
+
+#accordion .panel-heading:hover{
+    background-color: #4eb478;
+}
+
+#accordion .panel-heading:hover a{
+    color: white;
+    text-decoration: none;
+}
+
+#accordion .panel-heading a{
+    font-family: OpenSansBold;
+    font-size: 14px;
+    color: #23262c;
+    width: 100% !important;
+    display: block;
+}
+
+#accordion .panel-heading a i{
+    margin-right: 5px;
+}
+
+#accordion .panel-body{
+    font-family: OpenSans;
+    font-size: 13px;
+    color: #666;
+    line-height: 1.6em;
+}
+/* Accordion Style End */
+
+/* Our Services Column End */
+
+/* ***** Tabs and Accordion Container End ***** */
+
+
+/* ***** Footer Background Div Start ***** */
+#footerback{
+    background-color: #3a3a3a;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* Plato Column Start */
+#platocolumn a{
+    display: block;
+    font-family: OpenSansBold;
+    font-size: 26px;
+    color: white;
+    margin-bottom: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+#platocolumn p{
+    font-family: OpenSans;
+    font-size: 13px;
+    color: #7e7e7e;
+    margin-bottom: 5px;
+}
+
+#platocolumn p:first-of-type{
+    font-weight: bold;
+}
+/* Plato Column End */
+
+/* Browse Pages Column Start */
+#browsepagescolumn h3{
+    font-family: OpenSans;
+    font-size: 22px;
+    color: #e8e8e8;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#browsepagescolumn ul{
+    list-style-image: url('../images/footer-bullet.png');
+    padding-left: 20px;
+}
+
+#browsepagescolumn ul li{
+    margin-bottom: 10px;
+}
+
+#browsepagescolumn ul li a{
+    font-family: OpenSans;
+    font-size: 13px;
+    color: #bbb;
+    transition: .5s ease-in;
+}
+
+#browsepagescolumn ul li a:hover{
+    color: #398b5b;
+}
+/* Browse Pages Column End */
+
+/* Flickr Column Start */
+#flickrcolumn h3{
+    font-family: OpenSans;
+    font-size: 22px;
+    color: #e8e8e8;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Flickr Photos Div Start */
+#flickrcolumn .photos a img{
+    width: 60px;
+    padding: 0 6px 20px 0;
+}
+/* Flickr Photos Div End */
+
+/* Flickr Column End */
+
+
+/* Keep Updated Column Start */
+#keepupdated h3{
+    font-family: OpenSans;
+    font-size: 22px;
+    color: #e8e8e8;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#keepupdated p{
+    font-family: OpenSans;
+    font-size: 13px;
+    color: #7e7e7e;
+    margin-bottom: 15px;
+}
+
+
+/* Form Elements Start */
+#keepupdated input[type=email]{
+    width: 168;
+    height: 28px;
+    padding: 4px 6px;
+    font-family: OpenSans;
+    font-size: 13px;
+    float: left;
+}
+
+#keepupdated input[type=submit]{
+    width: 81px;
+    height: 28px;
+    border: none;
+    background-color: #4eb478;
+    font-family: OpenSans;
+    font-size: 13px;
+    color: white;
+    transition: .5s ease-in;
+}
+
+#keepupdated input[type=submit]:hover{
+    background-color: #398b5b;
+}
+/* Form Elements End */
+
+/* Social Icons Div Start */
+#socialicons{
+    margin-top: 30px;
+}
+
+#socialicons a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: white;
+    color: #444;
+    font-size: 16px;
+    transition: .5s ease-in;
+}
+
+#socialicons a:hover{
+    background-color: #4eb478;
+    color: white;
+}
+/* Social Icons Div End */
+
+/* Keep Updated Column End */
+
+/* ***** Footer Background Div End ***** */
+
+/* ***** Copyright Start ***** */
+#copyrightback{
+    background-color: #222;
+    border-top: 5px solid #4eb478;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#copyrightcontainer p{
+    font-family: OpenSans;
+    font-size: 13px;
+    color: #7e7e7e;
+}
+
+#copyrightcontainer p span{
+    float:right;
+}
+
+#copyrightcontainer p span a{
+    color: #4eb478;
+    transition: .5s ease-in;
+}
+
+#copyrightcontainer p span a:hover{
+    color: #398b5b;
+}
+/* ***** Copyright End ***** */
+
+@media only screen and (max-width:579px){
+    /* ***** Bootstrap Business Theme Container Start ***** */
+    #bootstraptextscol h2{
+        font-size: 26px;
+    }
+    /* ***** Bootstrap Business Theme Container End ***** */
+
+    /* ***** Three Article Container Start ***** */
+    #threearticlecontainer .col-sm-4{
+        display: flex;
+        justify-content: center;
+    }
+
+    #threearticlecontainer .roundedback{
+        width: 90px;
+        height: 90px;
+    }
+
+    #threearticlecontainer .articletext{
+        width: 50%;
+    }
+
+    #threearticlecontainer .articletext p{
+        font-size: 11px;
+    }
+    /* ***** Three Article Container End ***** */
+
+    /* Flickr Column Start */
+    #flickrcolumn{
+        overflow: hidden;
+    }
+    /* Flickr Column End */
+}
+
+
+@media only screen and (max-width:580px){
+    
+    /* ***** Navigation Start ***** */
+    #navigationback{
+        position: inherit;
+    }
+
+    #sitetitle{
+        text-align: center;        
+    }
+
+    #navtop{
+        float: none;
+    }
+
+    #navigation{
+        border: none;
+    }
+
+    #navigation ul li a{
+        text-align: center;
+    }
+    /* ***** Navigation End ***** */
+
+
+    /* ***** Bootstrap Business Theme Container Start ***** */
+    #bootstrapbusinessback{
+        margin-top: 0;
+    }
+
+    #bootstraptextscol{
+        margin-bottom: 40px;
+    }
+
+    #bootstrapcarousel{
+        padding-top: 0;
+    }
+    /* ***** Bootstrap Business Theme Container End ***** */
+
+
+    /* ***** Three Article Container Start ***** */
+    #threearticlecontainer{
+        padding: 60px 15px;
+    }
+
+    #threearticlecontainer .articletext{
+        width: 75%;
+    }
+
+    #threearticlerow .col-sm-4{
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    /* ***** Three Article Container End ***** */
+
+    /* ***** Special Offer Container Start ***** */
+    #specialoffercontainer{
+        margin: 30px 15px;
+    }
+    /* ***** Special Offer Container End ***** */
+
+    /* ***** Our Services Start ***** */
+    #ourservices{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    /* ***** Our Services End ***** */
+
+    /* ***** Footer Start ***** */
+    footer .col-sm-3{
+        margin-bottom: 40px;
+    }
+
+    /* Photos Div Start */
+    #flickrcolumn .photos{
+        float: left;
+    }
+    /* Photos Div End */
+
+    /* ***** Footer End ***** */
+
+}
